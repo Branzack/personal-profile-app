@@ -33,7 +33,7 @@ $result = $conn->query($sql);
         echo "</div>";
     }
 } else {
-    echo "No profiles found.";
+    echo "No profiles found";
 }
 $conn->close();
 ?>
